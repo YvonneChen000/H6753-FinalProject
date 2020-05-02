@@ -1,5 +1,4 @@
-setwd("~/Desktop/H6753/Final_H6753")
-
+#author：YvonneChen
 df <- read.csv("online_shoppers_intention.csv")
 df$is_revenue <- as.integer(df$Revenue)
 df$is_weekend <- as.integer(df$Weekend)
